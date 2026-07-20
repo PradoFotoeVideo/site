@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio — Prado Foto e Vídeo | Presidente Venceslau</title>
+<meta name="description" content="Veja o portfólio de casamentos, ensaios e eventos em Presidente Venceslau. Fotos e vídeos profissionais.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Portfólio — Prado Foto e Vídeo | Presidente Venceslau">
+<meta property="og:description" content="Veja o portfólio de casamentos, ensaios e eventos em Presidente Venceslau. Fotos e vídeos profissionais.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pradofotoevideo.github.io/site/portfolio.html">
+<meta property="og:image" content="https://pradofotoevideo.github.io/site/assets/images/og-image.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Prado Foto e Vídeo">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<div class="nav-container">
+<a href="index.html" class="nav-logo">Prado Foto & Vídeo</a>
+<button class="nav-toggle" aria-label="Abrir menu">☰</button>
+<ul class="nav-menu">
+<li><a href="index.html">Home</a></li>
+<li class="nav-dropdown">
+<a href="portfolio.html" class="active">Portfólio ▾</a>
+<ul class="dropdown-menu">
+<li><a href="portfolio.html#videos">Vídeos</a></li>
+<li><a href="portfolio.html#fotos">Fotos</a></li>
+</ul>
+</li>
+<li><a href="sobre.html">Sobre</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</div>
+</nav>
+
+<main>
+<section class="page-header">
+<div class="page-header-content">
+<h1>Portfólio</h1>
+<div class="portfolio-tabs">
+<button class="tab-btn active" data-tab="videos">🎬 Vídeos</button>
+<button class="tab-btn" data-tab="fotos">📷 Fotos</button>
+</div>
+</div>
+</section>
+
+<!-- Aba de Vídeos -->
+<section id="videos" class="tab-content active">
+  <div class="container">
+    <h2 class="section-title">Vídeos</h2>
+    <p class="section-desc">Melhores momentos registrados em movimento.</p>
+    <div class="video-grid" id="videoGrid">
+      <!-- Os vídeos serão inseridos pelo JavaScript -->
+    </div>
+  </div>
+</section>
+
+<!-- Aba de Fotos -->
+<section id="fotos" class="tab-content">
+  <div class="container">
+    <h2 class="section-title">Fotos</h2>
+    <p class="section-desc">Clique para ampliar e navegar pela galeria.</p>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- As fotos serão carregadas pelo JavaScript -->
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+<button class="lightbox-close">&times;</button>
+<button class="lightbox-prev">&lsaquo;</button>
+<img class="lightbox-img" src="" alt="">
+<button class="lightbox-next">&rsaquo;</button>
+</div>
+
+<!-- Rodapé -->
+<footer class="footer">
+<div class="footer-container">
+<div class="footer-brand">
+<h3>Prado Foto & Vídeo</h3>
+<p>Fotografia e filmagem profissional para seus momentos especiais.</p>
+</div>
+<div class="footer-contato">
+<h4>Contato</h4>
+<p>📞 <a href="https://wa.me/5518981832328" target="_blank">(18) 98183-2328</a></p>
+<p>📍 Rua General Câmara, 73 — Presidente Venceslau, SP</p>
+</div>
+<div class="footer-social">
+<h4>Redes</h4>
+<a href="https://www.instagram.com/pradofotoevideo/" target="_blank">Instagram</a>
+<a href="https://www.youtube.com/@pradofotoevideo5164" target="_blank">YouTube</a>
+<a href="https://www.facebook.com/pradofotoevideo" target="_blank">Facebook</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Prado Foto e Vídeo — Todos os direitos reservados.</p>
+</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
